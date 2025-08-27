@@ -1,0 +1,19 @@
+{
+  "name": "guncelbot-backend-node",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Microsoft Teams bot that responds to /guncel, /ekle, /sil, /yardim",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "node index.js"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "dependencies": {
+    "botbuilder": "^4.22.2",
+    "restify": "^11.1.0",
+    "dotenv": "^16.4.5"
+  }
+}
